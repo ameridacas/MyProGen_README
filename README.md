@@ -1,7 +1,7 @@
 # MyProGen_README
 Professional README Generator
 
-#Description, 
+#Description 
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 - What problem does it solve?
@@ -9,13 +9,14 @@ Professional README Generator
 
 #Table of Contents
 
+- [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Credits](#Credits)
 - [License](#License)
 - [Contributing](#Contributing)
 - [Tests](#Tests)
-= [Questions](#Questions)
+- [Questions](#Questions)
 
 #Installation
 
