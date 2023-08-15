@@ -5,7 +5,6 @@ const generateMarkdown = require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
 const questions = [
-.prompt([
     { //This is the Question to tell the user the project title
         type: 'input',
         name: 'title',
@@ -61,11 +60,23 @@ const questions = [
       name: 'email',
       message: 'What is your email address?'
     },
-  ])
 ];
 
+inquier.prompt(questions)//it will now show the questions with inquierer
+then((answers) => {
+console.log(answers)
+
+//callback funct runs the error and outputs the error object if there is an error
+const fileName = 'thesAnswers.json';
+    fs.writeFile(fileName, JSON.stringify(answers), (err) =>  
+    err ? console.error(err) : console.log('Success!')
+    )}
+    );
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    
+}
 
 // TODO: Create a function to initialize app
 function init() {}
