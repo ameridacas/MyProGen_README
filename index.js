@@ -75,7 +75,7 @@ const fileName = 'thesAnswers.json';
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    
+    return fs.writeFile(fileName, data);//this will return the data from the filename
 }
 
 // TODO: Create a function to initialize app
