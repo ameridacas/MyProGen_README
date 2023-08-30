@@ -7,23 +7,23 @@
 //const licenseBadge = getlicenseBadge(licenseName);
 //console.log(licenseBadge);
 
-//}
-function renderQuestionslist(questionList) {
-  console.log(questionList);
-  if (questionList !== "None" ) {
-    return ['What is the project title?',
-            'What is the description of the project?',
-            'What are the installation instructions?',
-            'What is the usage of this project?',
-            'What are the licences of this project?',
-            'What are the contributors of this project?',
-            'What are some tests that can be ran for this project?',
-            'What were the questions used for this project?',
-            'What is your GitHub username?',
-            'What is your email address?' ]
- }else{
-  return ``;
- }}
+// }
+// function renderQuestionslist(questionList) {
+//   console.log(questionList);
+//   if (questionList !== "None" ) {
+//     return ['What is the project title?',
+//             'What is the description of the project?',
+//             'What are the installation instructions?',
+//             'What is the usage of this project?',
+//             'What are the licences of this project?',
+//             'What are the contributors of this project?',
+//             'What are some tests that can be ran for this project?',
+//             'What were the questions used for this project?',
+//             'What is your GitHub username?',
+//             'What is your email address?' ]
+//  }else{
+//   return ``;
+//  }}
 
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {

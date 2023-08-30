@@ -27,11 +27,6 @@ const questions = [
         name: 'usage',
         message: 'What is the usage of this project?'
     },
-    //{ //This is the Question to tell the user what third party assests were used
-    //    type: 'input',
-    //    name: 'credits',
-    //    message: 'What are the credits of this project?'
-    //},
     { //This is the Question to tell the user the licenses for the project
         type: 'list',
         name: 'license',
@@ -86,5 +81,6 @@ function init() {
         //);
 }
 //console.log(init)
+
 // Function call to initialize app
 init();
