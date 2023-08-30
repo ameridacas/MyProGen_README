@@ -2,8 +2,6 @@
 const inquier = require('inquirer');
 const fs = require('fs').promises;
 const generateMarkdown = require('./utils/generateMarkdown');
-//const { writeFile } = require('fs');
-//const { default: Choices } = require('inquirer/lib/objects/choices');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -80,7 +78,6 @@ function init() {
     //const readMe = generateMarkdown(answers);   
         //);
 }
-//console.log(init)
 
 // Function call to initialize app
 init();
