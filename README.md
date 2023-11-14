@@ -24,12 +24,15 @@
   
   #Usage
 
-  The screenshot below shows how to use this application.
- 
-  
+  Please use the following Link below to see the application working!
+
+  https://drive.google.com/file/d/1k5yh6hINnfotaqMzKGFrAH1bwx9ZDqbF/view?usp=drive_link
+
   ##Contributing
 
   I used github for my repository, https://www.npmjs.com/ for the inquirer package, and the licenses from https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba.
+
+  Github_Repository- https://github.com/ameridacas/MyProGen_README
 
   ##License
      
